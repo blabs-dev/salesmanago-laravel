@@ -1,5 +1,9 @@
 <?php
 
+use Blabs\SalesManago\Services\ApiService;
+use Blabs\SmLaravel\SmLaravel;
+
 it('can test', function () {
-    expect(true)->toBeTrue();
+    $service = app(SmLaravel::class);
+    expect(get_class($service->service))->toBe(ApiService::class);
 });
