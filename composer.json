@@ -18,7 +18,7 @@
     "require": {
         "php": "^8.1",
         "blabs/salesmanago-sdk-php": "^1.0",
-        "illuminate/contracts": "^9.0",
+        "illuminate/contracts": "^8.0",
         "spatie/laravel-package-tools": "^1.13.0"
     },
     "require-dev": {
